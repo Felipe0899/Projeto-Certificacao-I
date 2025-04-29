@@ -7,12 +7,17 @@ Este projeto foi desenvolvido com o objetivo de analisar os impactos econômicos
 Utilizamos uma abordagem integrada, que conecta coleta de dados, análise inteligente e apresentação visual, proporcionando uma ferramenta interativa para entender tanto os efeitos econômicos concretos quanto os vieses editoriais existentes na cobertura do tema.
 
 ## 🛠️ Tecnologias e Bibliotecas Utilizadas
+
 Python
 
-sqlite3 – Banco de dados local para armazenamento dos dados de notícias e tarifas.
+Web Scraping - Coleta de notícias utilizando bibliotecas como Beautiful Soup, Selenium, Scrapy.
+
+SQL - Estruturação de banco de dados local utilizando a biblioteca Sqlite3
 
 Folium – Construção de mapas interativos, colorindo países conforme a intensidade tarifária.
 
 Streamlit – Criação de uma interface de usuário simples e intuitiva.
 
 Gemini API – Utilizada para análises inteligentes das notícias, avaliação de impactos econômicos e identificação de possíveis vieses entre diferentes veículos de imprensa.
+
+Github - Utilizado para versionamento e trabalho em equipe entre os membros do grupo.
