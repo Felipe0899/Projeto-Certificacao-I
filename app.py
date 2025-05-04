@@ -10,7 +10,8 @@ import sqlite3
 import requests
 import geopandas
 
-API_KEY = open(r"C:\Users\felip\Programing\Projeto_Certificacao\gemini_api_key.txt").read()
+# insert your API key here
+API_KEY = open(r"").read()
 
 @st.cache_data
 # Function to import the database from SQLite
