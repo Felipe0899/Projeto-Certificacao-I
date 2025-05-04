@@ -39,7 +39,7 @@ df = import_database("noticias_database.db")
 st.dataframe(df.head(5))
 
 def generate_response(prompt):
-    client = genai.Client(api_key='AIzaSyCK01vW2n-DzBs_ajmXC78BevtyhzFW9UM')
+    client = genai.Client(api_key=API_KEY)
     response = client.models.generate_content(
         model="gemini-2.0-flash",
         contents=prompt,
